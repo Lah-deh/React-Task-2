@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '../components/Hero.jsx'
+import Hero from '../components/hero.jsx'
 import About from '../components/About.jsx'
 import Focus from '../components/Focus.jsx'
 import Project from '../components/project.jsx'
