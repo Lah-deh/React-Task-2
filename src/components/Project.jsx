@@ -13,10 +13,18 @@ const Project = () => {
         <h1 >Our Projects</h1>
         <div className=' gridd'>
           <img src={p1} className='ima1'/>
-          <img src={p2} className='ima2'/>
-          <img src={p3} className='ima3'/>
-          <img src={p4} className='ima4'/>
-          <img src={p5} className='ima5'/>
+          <div>
+            <img src={p2} className='imaa2'/>
+          </div>
+          <div>
+            <img src={p3} className='imaa3'/>
+          </div>
+          <div>
+            <img src={p4} className='imaa4'/>
+          </div>
+          <div>
+          <img src={p5} className='imaa5'/>
+          </div>
         </div>
         <div className=''>
           <button>ALL PROJECTS</button>
