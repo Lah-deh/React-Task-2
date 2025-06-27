@@ -13,7 +13,7 @@ const projectss = () => {
           <div className='jet1'>
             <img src= {jet1}/>
             <div>
-              <h3>Sample Project</h3><br/><br/><br/>
+              <h3>Sample Project</h3><br/><br/>
               <p>Lorem Ipsum is simply dummy text of the printing and<br/> typesetting industry. Lorem Ipsum has been the<br/> industry's standard dummy text ever since the 1500s,<br/> when an unknown printer took a galley of type and <br/>scrambled it to make a type specimen book.</p><br/><br/>
               <button>VIEW MORE</button>
             </div>
@@ -21,7 +21,7 @@ const projectss = () => {
           <div className='jet2'>
             <img src= {jet2}/>
             <div>
-              <h3>Sample Project 2</h3><br/><br/><br/>
+              <h3>Sample Project 2</h3><br/><br/>
               <p>Lorem Ipsum is simply dummy text of the printing and<br/> typesetting industry. Lorem Ipsum has been the<br/> industry's standard dummy text ever since the 1500s,<br/> when an unknown printer took a galley of type and <br/>scrambled it to make a type specimen book.</p><br/><br/>
               <button>VIEW MORE</button>
             </div>
@@ -29,7 +29,7 @@ const projectss = () => {
           <div className='jet3 '>
             <img src= {jet3}/>
             <div>
-              <h3>Sample Project 3</h3><br/><br/><br/>
+              <h3>Sample Project 3</h3><br/><br/>
               <p>Lorem Ipsum is simply dummy text of the printing and<br/> typesetting industry. Lorem Ipsum has been the<br/> industry's standard dummy text ever since the 1500s,<br/> when an unknown printer took a galley of type and <br/>scrambled it to make a type specimen book.</p><br/><br/>
               <button>VIEW MORE</button>
             </div>

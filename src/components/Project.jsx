@@ -14,19 +14,19 @@ const Project = () => {
         <div className=' gridd'>
           <img src={p1} className='ima1'/>
           <div>
-            <img src={p2} className='imaa2'/>
+            <img src={p2} className='ima2'/>
           </div>
           <div>
-            <img src={p3} className='imaa3'/>
+            <img src={p3} className='ima3'/>
           </div>
           <div>
-            <img src={p4} className='imaa4'/>
+            <img src={p4} className='ima4'/>
           </div>
           <div>
-          <img src={p5} className='imaa5'/>
+          <img src={p5} className='ima5'/>
           </div>
         </div>
-        <div className=''>
+        <div className='button'>
           <button>ALL PROJECTS</button>
         </div>
       </div>

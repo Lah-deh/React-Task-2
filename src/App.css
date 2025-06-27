@@ -1,279 +1,241 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-.nav{
+
+body{
     background-color: white;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 30px;
+    overflow-x: hidden;
+    max-width: 100%;
+    
 }
-.nav section{
+h1{
+    color: #BDBDBD;
+}
+.nav{
+    overflow-x:hidden ;
+    max-width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.nav-flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 .logo{
-    width: 3%;
-    height: 10%;
+    max-width: 100%;
+    width: 15%;
+    height: auto;
 }
-.nav ul {
-    list-style-type: none;
+.nav ul{
     display: flex;
-    gap: 5rem;
-    
-    
+    list-style-type: none;
+    gap: 18px;
 }
 .link{
     text-decoration: none;
     color: black;
 }
+.linkk{
+    display: none;
+}
+
 
 .hero{
-    margin-left: 200px;
-    margin-right: 200px;
+    overflow-x:hidden ;
+    max-width: 100%;
+    margin-top: 30px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin-top: 40px;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .hero h1{
-    font-size:50px;
+    font-size: 20px;
     color: #BDBDBD;
 }
-.hero h2{
-    font-size: 40px;
-    font-weight: 900;
-}
-
-
-
 
 
 .about{
-    display: flex;
-    margin-top: 70px;
-    margin-left: 200px;
-    margin-right: 200px;
+    overflow-x:hidden ;
+    max-width: 100%;
+    margin-top: 50px;
     background-color: #FBFBFB;
-    width: 75rem;
-    height: 25rem;
-    margin-bottom: 10rem;
-    gap: 50px;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.ima img{
-    display: grid;
-    grid-row: repeat(2,1fr);
-    gap: 60px;
+.about img{
+    display: none;
+
 }
-.one img {
-    width: 60%;
-    height: 60%;
-}
-.two img {
-    width: 60%;
-    height: 60%;
-    padding-top: 50px;
-}
-.three img {
-    width: 40%;
-    height: 40%;
-}
-.about h1{
-    font-size:50px;
-    color: #BDBDBD;
-}
-button{
+.about button{
+    width:120px;
+    height: 40px;
     background-color: white;
-    margin-top: 60px;
-    width: 120px;
-    height: 30px;
+    color: black;
     border: 1px solid white;
+    margin-top: 30px;
 }
 
 
 
 .focus{
-    margin-left: 200px;
-    margin-right: 200px;
+    overflow-x:hidden ;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .focus h1{
-    font-size: 50px;
-    color: #BDBDBD;
-}
-.focuss{
-    display: flex;
-    margin-top: 50px;
-    justify-content: space-between;
+    font-weight: lighter;
 }
 .onee{
     display: flex;
-    gap: 3rem;
-
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
 }
-.onee p{
-    font-size: 20px;
+.onee img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 18%;
+    
 }
 .twoo{
     display: flex;
-    gap: 3rem;
-}
-.twoo p{
-    font-size: 20px;
-}
-
-.onee img{
-    height: 50%;
-    width: 60%;
+    gap: 20px;
+    margin-top: 30px;
+    align-items: center;
 }
 .twoo img{
-    height: 50%;
-    width: 60%;
-    
+    max-width: 100%;
+    max-height: 100%;
+    width: 20%;
 }
-
-
 
 
 .project{
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-.project h1{
-    font-size: 50px;
-    color: #BDBDBD;
-    margin-bottom: 50px;
-}
-
-.gridd{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-auto-flow: row;
-    gap:20px ;
-
-}
-.gridd img:nth-child(1){
-    grid-column: 1/3;
-    grid-row: 1;
-    height: 100%;
-}
-.gridd img:nth-child(2){
-    grid-column: 3/6;
-    grid-row: 1;
-    height: 100%;
-    max-width: 100vw;
-    margin-left: -4rem;
-    width: 29rem;
-}
-.gridd img:nth-child(3){
-    grid-column: 1;
-    grid-row: 2;
+    overflow-x:hidden ;
     max-width: 100%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.project h1{
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.gridd img{
+    max-width: 100%;
+    max-height: 100%;
     width: 100%;
-    max-height: 100vh;
-    height: 100%;
 }
-.gridd img:nth-child(4){
-    grid-column: 2;
-    grid-row: 2;
-    max-height: 100vh;
-    width: 30rem;
-    max-width: 100vw;
-    height: 100%;
-    
-}
-.gridd img:nth-child(5){
-    grid-column: 3;
-    grid-row: 2;
-    max-height: 100vh;
-    height: 100%;
-    width: 25rem;
-    max-width: 100vw;
-    
+.gridd{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .project button{
+    margin-top: 20px;
     background-color: black;
     color: white;
-    margin-left: 57.5rem;
-    width: 10rem;
+    width: 130px;
     height: 40px;
+    
 }
-
-
-
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 .contact{
-    margin-left: 200px;
-    margin-right: 200px;
+    overflow-x:hidden ;
+    max-width: 100%;
     margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .contact h1{
-    font-size: 50px;
-    color: #BDBDBD;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
-.contactt{
+form{
     display: flex;
-    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    
 }
 input{
     background-color: #BDBDBD;
     border: 2px solid #BDBDBD;
-    height: 39px;
+    height: 40px;
+    color: black;
     padding-left: 10px;
 }
-
-.ima5 img {
-    width: 20rem;
-    
-}
-form input{
-    width: 20rem;
-    
-}
 #message{
-    height: 9rem;
-
+    height: 100px;
+    display: flex;
+    
+}
+.contact img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 30px;
 }
 .contact button{
+    margin-top: 10px;
     background-color: black;
     color: white;
-    width: 10rem;
+    font-size: 10px;
+    width: 110px;
     height: 40px;
-    margin-bottom: 40px;
 }
+
 
 
 
 .footer{
+    overflow-x:hidden ;
+    max-width: 100%;
+    margin-top: 50px;
     background-color: black;
     color: white;
     
 }
 .footerr{
     display: flex;
-    margin-top: 20px;
     padding-top: 30px;
-    margin-bottom: 5px;
     justify-content: space-evenly;
+    gap: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    
 
 }
-.footerr li{
+li{
     list-style-type: none;
 }
 .flexxx li{
     display: flex;
     gap: 10px;
 }
+.sooo{
+    display: none;
+}
 .logoo {
-    width: 10%;
-    height: 10%;
+    max-width: 100%;
+    max-height: 100%;
+    width: 15%;
+    height: 30%;
 }
 .copy{
     text-align: center;
@@ -282,1026 +244,257 @@ form input{
 }
 
 
-
 .photo{
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-}
-.pho {
-    font-size: 50px;
-    font-weight: 200;
-    color: #BDBDBD;
+    overflow-x:hidden ;
+    max-width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     
 }
 .phoo {
-    font-size: 50px;
     color: black;
 }
 .photoo{
-    display: grid;
-    grid-template-rows: repeat(2,1fr);
-    grid-template-columns: repeat(5,1fr);
-    column-gap: 20px;
-    row-gap: 20px;
-    margin-top: 40px;
-    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    row-gap: 30px;
 }
 .photoo img{
-    width: 100%;
-    display: block;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: 90%;
 }
-
 
 
 
 .projects{
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
+    overflow-x:hidden ;
+    max-width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.proj {
-    font-size: 50px;
-    font-weight: 200;
-    color: #BDBDBD;
-    
-}
-.projj {
-    font-size: 50px;
+.projj{
     color: black;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .jet1{
-    background-color: #FBFBFB;
-    display: flex;
-    gap: 50px;
-    align-items: center;
+    background-color:#FBFBFB ;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.jet1 button{
+    background-color: white;
+    border: 1px solid white;
+    color: blacks;
+    width: 130px;
+    height: 40px;
 }
 .jet2{
-    background-color: #FBFBFB;
-    display: flex;
-    gap: 50px;
-    align-items: center;
+    background-color:#FBFBFB ;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.jet2 button{
+    background-color: white;
+    border: 1px solid white;
+    color: blacks;
+    width: 130px;
+    height: 40px;
 }
 .jet3{
-    background-color: #FBFBFB;
-    display: flex;
-    gap: 50px;
-    align-items: center;
+    background-color:#FBFBFB ;
+    padding: 10px;
+    padding-bottom: 20px;
 }
-.projects h3{
-    color: #BDBDBD;
-}
-
-@media screen and  (max-width: 320px){
-    .nav{
-        margin-left: 30px;
-        margin-right: 50px;
-    }
-    .nav section{
-        gap: 30px;
-    }
-    .logo{
-        width: 20%;
-        height: 10%;
-    }
-    .nav ul{
-        gap: 20px;
-    }
-    .linkk{
-        display: none;
-    }
-
-
-    .hero{
-        margin-left: 20px;
-        margin-right: 50px;
-        
-    }
-    .hero h1{
-        font-size:20px;
-        color: #BDBDBD;
-    }
-    .hero h2{
-        font-size: 15px;
-    }
-    .hero  img{
-        width: 70%;
-        max-width: 100vw;
-        height: 50%;
-        margin-left: 20px;
-        
-    }
-
-
-
-    
-    .about img{
-        display: none;
-    }
-    .about{
-        width: 17rem;
-        gap: 0;
-        height: 30rem;
-        margin-left: 30px;
-        border-radius: 30px;
-        padding: 20px;
-        
-        
-    }
-    .about h1 p{
-        padding-left:-40px;
-    }
-
-
-
-    .focus{
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 70%;
-        margin-top: -20px;
-        
-    }
-    .focus h1{
-       font-size: 40px;
-       color: #BDBDBD;
-    
-    }
-    .focuss{
-        flex-direction: column;
-        gap: 80px;
-        justify-content: center;
-        
-    }
-    .onee{
-        width: 30rem;
-        flex-direction: column;
-        
-        
-    }
-    .onee p{
-        font-size: 20px;
-        margin-left: 2rem;
-    }
-    .onee img{
-        width: 20%;
-        height: 10%;
-        max-height: 100vh;
-        margin-left: 5rem;
-        max-width: 100vw;
-    }
-
-
-    .twoo{
-        width: 30rem;
-        flex-direction: column;
-    }
-    .twoo p{
-        font-size: 20px;
-        margin-left: 1rem;
-        width: 18rem;
-    }
-    .twoo img{
-        width: 30%;
-        height: 100%;
-        max-height:100vh;
-        max-width: 100vw;
-        margin-left: 5rem;
-    }
-
-
-    .project{
-        margin-left: 40px;
-        margin-right: 20px;
-    }
-    .project h1{
-        margin-top: 70px;
-    }
-    .gridd{
-        display: flex;
-        flex-direction: column;
-    }
-    .gridd img{
-        width: 90%;
-        height: 60%;
-    }
-    .project button{
-        margin-left: 30px;
-        margin-top: 20px;
-    }
-
-    
-
-   .contact{
-    margin-left: 30px;
-    
-    margin-top: 50px;
-    
-   }
-   .contactt{
-    flex-direction: column;
-   }
-   form input{
-    width: 17rem;
-   }
-   .man img{
-    width: 15rem;
-    height: 10rem;
-    margin-left: 1rem;
-    margin-top: 2rem;
-   }
-
-   .sooo ul{
-    display: none;
-   }
-   .flexxx li{
-    gap: 40px;
-   }
-
-   .photo{
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-top: 50px;
-  }
-  .photoo{
-    display: grid;
-    grid-template-rows: repeat(5,1fr);
-    grid-template-columns: repeat(2,1fr);
-  }
-
-  .projects{
-    margin-left: 30px;
-  }
-  
-  .jet1{
-    flex-direction: column;
-    gap: 20px;
-    width: 17rem;
-    border-radius: 20px;
-    padding: 10px;
-
-  }
-  .jet1 img{
-    width: 70%;
-    height: 50%;
-  }
-  
-  .jet2{
-    flex-direction: column;
-    gap: 20px;
-    width: 17rem;
-    border-radius: 20px;
-    padding: 10px;
-  }
-  .jet2 img{
-    width: 70%;
-    height: 50%;
-  }
-  .jet3{
-    flex-direction: column;
-    gap: 20px;
-    width: 17rem;
-    border-radius: 20px;
-    padding: 10px;
-  }
-  .jet3 img{
-    width: 70%;
-    height: 50%;
-  }
-
-
-   
-    
-}
-
-@media screen and  (min-width: 320px){
-    .nav{
-        margin-left: 30px;
-        margin-right: 50px;
-    }
-    .nav section{
-        gap: 30px;
-    }
-    .logo{
-        width: 20%;
-        height: 10%;
-    }
-    .nav ul{
-        gap: 20px;
-    }
-    .linkk{
-        display: none;
-    }
-
-
-    .hero{
-        margin-left: 20px;
-        margin-right: 50px;
-        
-    }
-    .hero h1{
-        font-size:20px;
-        color: #BDBDBD;
-    }
-    .hero h2{
-        font-size: 15px;
-    }
-    .hero  img{
-        width: 70%;
-        max-width: 100vw;
-        height: 50%;
-        margin-left: 20px;
-        
-    }
-
-
-
-    
-    .about img{
-        display: none;
-    }
-    .about{
-        width: 17rem;
-        gap: 0;
-        height: 30rem;
-        margin-left: 30px;
-        border-radius: 30px;
-        padding: 20px;
-        
-        
-    }
-    .about h1 p{
-        padding-left:-40px;
-    }
-
-
-
-    .focus{
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 70%;
-        margin-top: -20px;
-        
-    }
-    .focus h1{
-       font-size: 40px;
-       color: #BDBDBD;
-    
-    }
-    .focuss{
-        flex-direction: column;
-        gap: 80px;
-        justify-content: center;
-        
-    }
-    .onee{
-        width: 30rem;
-        flex-direction: column;
-        
-        
-    }
-    .onee p{
-        font-size: 20px;
-        margin-left: 2rem;
-    }
-    .onee img{
-        width: 20%;
-        height: 10%;
-        max-height: 100vh;
-        margin-left: 5rem;
-        max-width: 100vw;
-    }
-
-
-    .twoo{
-        width: 30rem;
-        flex-direction: column;
-    }
-    .twoo p{
-        font-size: 20px;
-        margin-left: 1rem;
-        width: 18rem;
-    }
-    .twoo img{
-        width: 30%;
-        height: 100%;
-        max-height:100vh;
-        max-width: 100vw;
-        margin-left: 5rem;
-    }
-
-
-     .project{
-        margin-left: 40px;
-        margin-right: 20px;
-    }
-    .project h1{
-        margin-top: 70px;
-    }
-    .gridd{
-        display: flex;
-        flex-direction: column;
-    }
-    .gridd img{
-        width: 90%;
-        height: 60%;
-    }
-    .project button{
-        margin-left: 30px;
-        margin-top: 20px;
-    }
-
-    
-
-   .contact{
-    margin-left: 30px;
-    
-    margin-top: 50px;
-    
-   }
-   .contactt{
-    flex-direction: column;
-   }
-   form input{
-    width: 17rem;
-   }
-   .man img{
-    width: 15rem;
-    height: 10rem;
-    margin-left: 1rem;
-    margin-top: 2rem;
-   }
-
-   .sooo ul{
-    display: none;
-   }
-   .flexxx li{
-    gap: 40px;
-   }
-   
-   
-   
-   .photo{
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-top: 50px;
-  }
-  .photoo{
-    display: grid;
-    grid-template-rows: repeat(5,1fr);
-    grid-template-columns: repeat(2,1fr);
-  }
-
-
-  .projects{
-    margin-left: 30px;
-  }
-  
-  .jet1{
-    flex-direction: column;
-    gap: 20px;
-    width: 17rem;
-    border-radius: 20px;
-    padding: 10px;
-
-  }
-  .jet1 img{
-    width: 70%;
-    height: 50%;
-  }
-  
-  .jet2{
-    flex-direction: column;
-    gap: 20px;
-    width: 17rem;
-    border-radius: 20px;
-    padding: 10px;
-  }
-  .jet2 img{
-    width: 70%;
-    height: 50%;
-  }
-  .jet3{
-    flex-direction: column;
-    gap: 20px;
-    width: 17rem;
-    border-radius: 20px;
-    padding: 10px;
-  }
-  .jet3 img{
-    width: 70%;
-    height: 50%;
-  }
-}
-
-
-@media screen and (min-width:375px){
-    .hero img{
-        width: 60%;
-    }
-    .about{
-        margin-left: 20px;
-    }
-    .project{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .gridd img{
-        width: 80%;
-        height: 60%;
-    }
-    .footer{
-        width: 90%;
-    }
-    .projects{
-    margin-left: 50px;
-   }
-}
-
-@media screen and (min-width:425px){
-    .nav section{
-        gap:40px;
-        justify-content: start;
-    }
-    .nav ul{
-        gap: 1rem;
-    }
-    .hero img{
-        width: 40%;
-        height: 60%;
-    }
-    .footer{
-        width: 100%;
-    }
-    .flexxx li{
-       gap: 10px;
-   }
-   .projects{
-    margin-left: 80px;
-   }
-   .gridd img{
-        width: 70%;
-        height: 60%;
-    }
-    .footerr{
-        font-size: 10px;
-        justify-content: start;
-        gap: 15px;
-    }
-    .footer{
-        width:76%;
-    }
-    .logoo{
-        padding-left: 10px;
-    }
+.jet3 button{
+    background-color: white;
+    border: 1px solid white;
+    color: blacks;
+    width: 130px;
+    height: 40px;
 }
 
 
 
 @media screen and (min-width:768px){
-    .logo{
-        width: 10%;
-        height: 5%;
+    .nav{
+        margin-left: 50px;
+        margin-right: 50px;
     }
     .linkk{
         display: block;
     }
-    .nav section{
-        gap:40px;
-        justify-content: start;
-    }
     .nav ul{
-        gap: 1.5rem;
+        gap: 30px;
     }
     .hero{
+        margin-left: 60px;
+        margin-right: 50px;
+    }
+    .about{
         margin-left: 50px;
         margin-right: 50px;
         display: flex;
-        justify-content: start;
+        padding: 30px;
         gap: 20px;
-        
     }
-    .hero img{
-        width: 40%;
-        height: 50%;
-
+    .about img{
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
     }
-
-    .about{
-        width: 55%;
-        height: 25rem;
-        margin-left: 40px;
-    }
-    .focus h1{
-        font-size: 30px;
-    }
-    .onee p{
-        font-size: 20px;
-        margin-left: 6rem;
-    }
-    .onee img{
-        margin-left: 8rem;
-    }
-    .twoo p{
-        font-size: 20px;
-        margin-left: 6rem;
-    }
-    .twoo img{
-        margin-left: 8rem;
-    }
-    .project h1{
-        margin-left: 60px;
-    }
-    .gridd img{
-        width: 50%;
-        height: auto;
-        margin-left: 60px;
-    }
-    .project button{
-        margin-left: 60px;
-    }
-
-    .contact{
-        margin-left: 80px;
-        margin-right: 80px;
-        
-        margin-top: 50px;
-    
-   }
-   form input{
-    width: 21rem;
-   }
-
-   .sooo ul{
-       display: block;
-    }
-
-   .footer{
-        width:66%;
-        
-    }
-    .footerr{
-        display: flex;
-        margin-top: 20px;
-        padding-top: 30px;
-        font-size: 20px;
-        margin-bottom: 5px;
-        justify-content: space-evenly;
-    }
-    .jet1, .jet2, .jet3{
-        flex-direction: row;
-        gap: 50px;
-        align-items: center;
-        width: 40rem;
-        padding: 20px;
-    }
-    .projects img{
-        width: 50%;
-    }
-    .projj {
-    font-size: 50px;
-    color: black;
-    margin-bottom: 50px;
-    }
-    .projects{
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
-    
-    }
-}
-
-
-@media screen and (min-width:1024px){
-    
-    .hero{
-        margin-left: 100px;
-        margin-right: 200px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 40px;
-    }
-    .hero h1{
-        font-size:50px;
-        color: #BDBDBD;
-    }
-    .hero h2{
-        font-size: 40px;
-        font-weight: 900;
-    }
-    .nav-flex{
-        margin-left: -100px;
-    }
-    .nav .logo{
-        width: 7rem;
-        height: 10%;
-    }
-    .nav section{
-        gap: 80px;
-    }
-    .nav ul{
-        gap: 3rem;
-    }
-    .hero  img{
-        width: 70%;
-        max-width: 100vw;
-        height: 30%;
-        margin-left: 20px;
-        
-    }
-
-
-    .about{
-        display: flex;
-        margin-top: 70px;
-        margin-left: 60px;
-        margin-right: 200px;
-        background-color: #FBFBFB;
-        width: 50rem;
-        height: 25rem;
-        margin-bottom: 10rem;
-        gap: 50px;
-        padding-left: 70px;
-        padding-right: 70px;
-        padding-top: 30px;
-    }
-    .ima img{
-        display: grid;
-        grid-row: repeat(2,1fr);
-        gap: 60px;
-    }
-    .one img {
-        width: 60%;
-        height: 60%;
-    }
-    .two img {
-        width: 60%;
-        height: 60%;
-        padding-top: 50px;
-    }
-    .three img {
-        width: 40%;
-        height: 40%;
-    }
-    .about h1{
-        font-size:50px;
-        color: #BDBDBD;
-    }
-    button{
-        background-color: white;
-        margin-top: 60px;
-        width: 120px;
-        height: 30px;
-        border: 1px solid white;
-    }
-    
-
-    
-
-
-
-    .focus {
-        margin-left: 100px;
-        margin-right: 100px;
-        width: 70%;
-        margin-top: -20px;
-        display: none;
+    .focus{
+        margin-left: 50px;
+        margin-right: 50px;
     }
     .focuss{
         display: flex;
-        margin-top: 50px;
-        flex-direction: row;
-        margin-left: -240px;
-        gap: 0;
-        width: 50rem;
-        
-        
-    }
-    .onee{
-        
-        display: flex;
-        flex-direction: row;
-        gap: 10px;   
-    }
-    .onee img{
-        width: 15%;
-        height: 50%;
-    }
-    .onee p{
-        font-size: 14px;
-        margin-left: 10px;
-    }
-    .twoo{
-        gap: 10px;
-        display: flex;
-        flex-direction: row;  
-        margin-left: -180px; 
-    }
-    .twoo p{
-        font-size: 14px;
-        margin-left: 10px;
-    }
-    .twoo img{
-        width: 40%;
-        height: 50%;
+        gap: 50px;
     }
     .project{
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
-
-    .project h1{
-        font-size: 50px;
-        color: #BDBDBD;
-        margin-bottom: 50px;
-    }
-
     .gridd{
         display: grid;
+        gap: 10px;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,1fr);
-        grid-auto-flow: row;
-        gap:20px ;
-        margin-left: -100px;
-        width: 100%;
-        margin-left: -140px;
-
     }
-    .gridd img{
+    .ima1{
+        grid-row: span 1;
+        grid-column: span 2;
         width: 100%;
         height: 100%;
+        object-fit: cover;
     }
-    .gridd img:nth-child(1){
-        grid-column: 1/3;
-        grid-row: 1;
-        height: 100%;
-    }
-    .gridd img:nth-child(2){
-        grid-column: 3/6;
-        grid-row: 1;
-        height: 100%;
-        max-width: 100vw;
-        margin-left: -4rem;
-        width: 29rem;
-    }
-    .gridd img:nth-child(3){
-        grid-column: 1;
-        grid-row: 2;
-        max-width: 100%;
+    .ima2{
+        grid-column: span 2;
+        grid-row: span 1;
         width: 100%;
-        max-height: 100vh;
         height: 100%;
+        object-fit: cover;
     }
-    .gridd img:nth-child(4){
-        grid-column: 2;
-        grid-row: 2;
-        max-height: 100vh;
-        width: 30rem;
-        max-width: 100vw;
+    .ima3,.ima4,.ima5{
+        width: 100%;
         height: 100%;
-        
+        object-fit: cover;
     }
-    .gridd img:nth-child(5){
-        grid-column: 3;
-        grid-row: 2;
-        max-height: 100vh;
-        height: 100%;
-        width: 25rem;
-        max-width: 100vw;
-        
-    }
-    .project button{
-        background-color: black;
-        color: white;
-        margin-left: 35rem;
-        width: 10rem;
-        height: 40px;
-    }
-
-
     .contact{
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 50px;
-        flex-direction: row;
-    }
-    .contact h1{
-        font-size: 50px;
-        color: #BDBDBD;
-        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        max-width: 100%;
     }
     .contactt{
         display: flex;
         gap: 30px;
-        flex-direction: row;
     }
     input{
-        background-color: #BDBDBD;
-        border: 2px solid #BDBDBD;
-        height: 39px;
-        padding-left: 10px;
+        width: 23rem;
     }
-
-    .ima5 img {
-        width: 20rem;
-        
+    .contact img{
+        width: 100%;
+        height: 90%;
     }
-    .man img{
-        width: 80%;
-        height: 80%;
+    .sooo{
+        display: block;
     }
-    form input{
-        width: 20rem;
-        
-    }
-    #message{
-        height: 9rem;
-
-    }
-    .contact button{
-        background-color: black;
-        color: white;
-        width: 10rem;
-        height: 40px;
-        margin-bottom: 40px;
-    }
-
-    
-
-    .sooo ul{
-       display: block;
-    }
-    .footer{
-        background-color: black;
-        color: white;
-        width: 87%;
-        
-    }
-    .footerr{
-        display: flex;
-        margin-top: 20px;
-        padding-top: 30px;
-        font-size: 20px;
-        margin-bottom: 5px;
-        justify-content: space-evenly;
-        
-
-    }
-    .footerr li{
-        list-style-type: none;
-    }
-    .flexxx li{
-        display: flex;
-        gap: 10px;
-    }
-    .logoo {
-        width: 10%;
-        height: 10%;
-    }
-    .copy{
-        text-align: center;
-        padding-bottom: 30px;
-        padding-top: 10px;
+    .photo{
+        margin-left: 50px;
+        margin-right: 50px;
+        max-width: 100%;
     }
     .photoo{
         display: grid;
-        grid-template-rows: repeat(2,1fr);
         grid-template-columns: repeat(5,1fr);
-        column-gap: 20px;
-        row-gap: 20px;
-        margin-top: 40px;
-        margin-bottom: 10rem;
+        grid-template-rows: repeat(2,1fr);
     }
-    .nav{
-        background-color: white;
-        margin-left: 200px;
-        margin-right: 200px;
-        margin-top: 30px;
-   }
-    .nav section{
+    .projects{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .jet1{
         display: flex;
-        justify-content: space-between;
+        gap: 30px;
+        border-radius: 30px;
+
     }
-    .logo{
-        width: 3%;
-        height: 10%;
+    .projects img{
+        width: 50%;
     }
-    .nav ul {
-        list-style-type: none;
+    .jet2{
         display: flex;
-        gap: 5rem;
+        gap: 30px;
+        border-radius: 30px;
+
+    }
+    .jet3{
+        display: flex;
+        gap: 30px;
+        border-radius: 30px;
+
+    }
+
     
     
-    }
-    .jet1, .jet2, .jet3{
-        flex-direction: row;
-        gap: 50px;
-        align-items: center;
-        width: 100%;
-        max-width: 100vw;
-        padding: 20px;
-    }
+    
 }
+
+
+@media screen and (min-width:1440px){
+    .logo{
+        width: 10%;
+    }
+    .nav ul{
+        font-size: 24px;
+        gap: 80px;
+    }
+    .hero{
+        margin-left: 100px;
+        margin-right: 70px;
+    }
+    .hero h1{
+        font-size: 30px;
+    }
+    .hero img{
+        width: 100%;
+    }
+    .about{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .focus{
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+    .focuss{
+        gap: 25rem;
+        font-size: 20px;
+    }
+    .project{
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+    .contact{
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+    input{
+        width: 30rem;
+    }
+    .contact img{
+        height: 67%;
+    }
+
+}
+
 

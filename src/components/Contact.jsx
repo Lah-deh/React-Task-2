@@ -9,11 +9,11 @@ const Contact = () => {
       <div className='contactt'>
         <div>
           <form>
-            <input type="text" placeholder='Name' className='bg-gray-300 border-gray-300 pl-5'/><br/><br/>
-            <input type="number" placeholder='Phone Number' className='bg-gray-300 border-gray-300 pl-5'/><br/><br/>
-            <input type="email" placeholder='E-mail' className='bg-gray-300 border-gray-300 pl-5'/><br/><br/>
-            <input type="text" placeholder='Interested in' className='bg-gray-300 border-gray-300 pl-5'/><br/><br/>
-            <input type="text" placeholder='Message' className='bg-gray-300 border-gray-300 pl-5  ' id='message'/><br/><br/>
+            <input type="text" placeholder='Name' className='bg-gray-300 border-gray-300 pl-5'/>
+            <input type="number" placeholder='Phone Number' className='bg-gray-300 border-gray-300 pl-5'/>
+            <input type="email" placeholder='E-mail' className='bg-gray-300 border-gray-300 pl-5'/>
+            <input type="text" placeholder='Interested in' className='bg-gray-300 border-gray-300 pl-5'/>
+            <input type="text" placeholder='Message' className='bg-gray-300 border-gray-300 pl-5  ' id='message'/>
 
           </form>
         </div>
