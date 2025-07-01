@@ -226,8 +226,9 @@ li{
 }
 .flexxx li{
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
+
 .sooo{
     display: none;
 }
@@ -329,6 +330,10 @@ li{
     .linkk{
         display: block;
     }
+    .logo{
+        width: 10%;
+        height:30%
+    }
     .nav ul{
         gap: 30px;
     }
@@ -405,6 +410,11 @@ li{
     .sooo{
         display: block;
     }
+    .flexxx{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .photo{
         margin-left: 50px;
         margin-right: 50px;
@@ -447,6 +457,60 @@ li{
 }
 
 
+
+@media screen and (min-width:1024px){
+    .focuss{
+        display:flex;
+        justify-content:space-between;
+    }
+}
+@media screen and (min-width:1280px){
+    .nav ul{
+        gap: 80px;
+    }
+    .hero img{
+        width: 100%;
+        height: 50%;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    p{
+        font-size:27px;
+    }
+    .about button{
+        width: 200px;
+        height: 60px;
+        
+    }
+    h1{
+        font-size: 32px;
+    }
+    button{
+        font-size: 20px;
+    }
+    .project button{
+        width: 200px;
+        height: 60px;
+    }
+    input{
+        height: 60px;
+        width:40rem;
+        font-size:20px;
+    }
+    .contact button{
+        font-size :20px;
+        width:14rem;
+        height: 50px;
+    }
+    .footer{
+        font-size :25px;
+    }
+    .projects h3{
+        font-size: 45px;
+    }
+}
+
+
 @media screen and (min-width:1440px){
     .logo{
         width: 10%;
@@ -469,6 +533,9 @@ li{
         margin-left: 100px;
         margin-right: 100px;
     }
+    .about p{
+        font-size :23px;
+    }
     .focus{
         margin-left: 100px;
         margin-right: 100px;
@@ -477,6 +544,9 @@ li{
     .focuss{
         gap: 25rem;
         font-size: 20px;
+    }
+    .focus p{
+        font-size:23px;
     }
     .project{
         margin-left: 100px;
@@ -494,7 +564,120 @@ li{
     .contact img{
         height: 67%;
     }
+    .projects h3{
+        font-size: 35px;
+    }
+    .projects p{
+        font-size: 29px;
+    }
+    .projects button{
+        font-size: 20px;
+    }
 
+}
+
+
+@media screen and (min-width:2560px){
+    .logo{
+        width:5%;
+    }
+    .nav ul{
+        font-size:40px
+    }
+    .hero h1{
+        font-size:60px;
+    }
+    .hero h2{
+        font-size:50px;
+    }
+    .about{
+        margin-top:130px;
+        padding:50px;
+        gap:50px;
+        
+
+    }
+    .about p{
+        font-size:50px;
+    }
+    .about h1{
+        font-size:80px;
+    }
+    .about button{
+        font-size:40px;
+        width:20rem;
+        height:70px;
+    }
+    .about img{
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        
+    }
+    h1{
+        font-size:60px;
+    }
+    .focus p{
+        font-size:50px;
+    }
+    .onee img{
+        max-width: 100%;
+        max-height: 100%;
+        width: 28%;
+        
+    }
+    .twoo img{
+        max-width: 100%;
+        max-height: 100%;
+        width: 30%;
+    }
+    .project button{
+        font-size :50px;
+        width:27rem;
+        height: 100px;
+    }
+    .contact img{
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 30px;
+        width:100%;
+        height:100%;
+    }
+    
+    input{
+        height: 100px;
+        width:70rem;
+        font-size:40px;
+    }
+    .contact button{
+        font-size :50px;
+        width:27rem;
+        height: 100px;
+    }
+    .footer{
+        font-size :50px;
+    }
+    .flexxx img{
+        width: 50%;
+        height: 50%;
+        max-width: 100%;
+        max-height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .projects h3{
+        font-size: 55px;
+    }
+    .projects p{
+        font-size: 49px;
+    }
+    .projects button{
+        font-size: 40px;
+        width: 300px;
+        height: 70px;
+    }
 }
 
 
