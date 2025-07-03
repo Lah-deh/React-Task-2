@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ body{
     background-color: white;
     overflow-x: hidden;
     max-width: 100%;
+    font-family: Roboto;
     
 }
 h1{
@@ -25,16 +28,17 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 40px;
 }
 .logo{
     max-width: 100%;
-    width: 15%;
-    height: auto;
+    width: 10%;
+    height: 14%;
 }
 .nav ul{
     display: flex;
     list-style-type: none;
-    gap: 18px;
+    gap: 24px;
 }
 .link{
     text-decoration: none;
@@ -58,6 +62,12 @@ h1{
 .hero h1{
     font-size: 20px;
     color: #BDBDBD;
+}
+.heroo img{
+    width: 100%;
+    height: 10%;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 
@@ -331,8 +341,8 @@ li{
         display: block;
     }
     .logo{
-        width: 10%;
-        height:30%
+        width: 6%;
+        height: 10%;
     }
     .nav ul{
         gap: 30px;
@@ -459,18 +469,34 @@ li{
 
 
 @media screen and (min-width:1024px){
+    .logo{
+        width: 8%;
+        height: 10%;
+    }
     .focuss{
         display:flex;
         justify-content:space-between;
     }
+    .heroo img{
+        width: 100%;
+        height: 10%;
+        max-height: 100%;
+        max-width: 100%;
+    }
 }
 @media screen and (min-width:1280px){
+    .logo{
+        width: 3%;
+        height: 10%;
+    }
     .nav ul{
         gap: 80px;
+        
+        
     }
-    .hero img{
-        width: 100%;
-        height: 50%;
+    .heroo img{
+        width: 60rem;
+        height: 50rem;
         max-height: 100%;
         max-width: 100%;
     }
@@ -513,21 +539,27 @@ li{
 
 @media screen and (min-width:1440px){
     .logo{
-        width: 10%;
+        width: 6%;
+        height: 10%;
     }
     .nav ul{
         font-size: 24px;
         gap: 80px;
+        
     }
     .hero{
         margin-left: 100px;
         margin-right: 70px;
+        max-width: 100%;
     }
     .hero h1{
         font-size: 30px;
     }
-    .hero img{
-        width: 100%;
+    .heroo img{
+        width: 66rem;
+        max-height: 100%;
+        max-width: 100%;
+        height: 55rem;
     }
     .about{
         margin-left: 100px;
@@ -580,9 +612,19 @@ li{
 @media screen and (min-width:2560px){
     .logo{
         width:5%;
+        height: 10%;
     }
     .nav ul{
         font-size:40px
+    }
+    .hero{
+        margin-top: 100px;
+    }
+    .heroo img{
+        width: 130rem;
+        height: 110rem;
+        max-height: 100%;
+        max-width: 100%;
     }
     .hero h1{
         font-size:60px;

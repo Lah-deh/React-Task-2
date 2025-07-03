@@ -9,9 +9,11 @@ const Hero = () => {
         <h1 >PROJECT</h1>
         <h2>Lorum</h2>
       </div>
-        <img src={Heroo} alt="hero" className='hero' />
+      <div className='heroo'>
+      <img src={Heroo} alt="hero" />
     </div>
-      
+    </div>
+    
     </>
   )
 }
